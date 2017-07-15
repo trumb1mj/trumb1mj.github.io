@@ -1,0 +1,72 @@
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+
+#wrapper{
+    padding: 60px 0 0;
+}
+
+body {
+    background: url(./img/seamless_paper_texture.png);
+}
+
+h1{
+    font-weight: bold;
+    margin-bottom: 15px!important;
+    margin-top: 20px!important;
+}
+
+.page-header{
+    margin: 25px 0 0px!important;
+}
+
+.row{
+    padding-bottom: 15px;
+}
+
+.details, .footer{
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.1) !important;
+    text-align: center;
+    background: white;
+    color: #777;
+}
+
+.details {
+    margin-bottom: 20px;
+    box-shadow: 0 10px 0 #36546d;
+}
+
+.about-me{
+    font-size: medium;
+}
+
+.carousel-inner{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.portrait {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 160px;
+    position: relative;
+}
+
+.footer-inner{
+
+    margin-top: 25px;
+}
+
+li{
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+
+}
+
+a{
+    cursor: pointer;
+}

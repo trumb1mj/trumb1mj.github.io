@@ -1,0 +1,92 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Michael Trumbell • Software Engineer</title>
+    <link rel="stylesheet" href="js/libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/libs/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div class="container">
+            <div class="details">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="page-header">
+                          <h1><a href="./index.html">Michael Trumbell</a> <small>Software Engineer</small></h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="portrait">
+                            <img width="125px"  src="./img/me_profile.png">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="about-me-carousel" class="carousel slide about-me">
+                            <div class="carousel-inner">
+                                <div class="item active">
+                                    I'm a Software Engineer from Chicago, IL.
+                                </div>
+                                <div class="item">
+                                    I'm currently building a financial trading application with <b>EmberJS</b> and have full stack experience.
+                                </div>
+                                <div class="item">
+                                    If you'd like to work together, check out my resume and drop me a note!
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="row">
+                    <div class="footer-inner">
+                        <div class="col-lg-12">
+                            <ul class="list-inline">
+                              <li>
+                                  <a href="./img/MichaelTrumbellResume.pdf" title="Checkout my resume" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-4x fa-file-text-o"></i></a>
+                              </li>
+                              <li>
+                                  <a href="http://www.linkedin.com/in/michaeltrumbell" title="Connect on LinkedIn" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-4x fa-linkedin-square"></i></a>
+                              </li>
+                              <li>
+                                  <a href="mailto:michael@trumbell.net" title="Send an email" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-4x fa-envelope-square"></i></a>
+                              </li>
+                              <li>
+                                  <a href="https://github.com/trumb1mj" title="Connect on GitHub" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-4x fa-github-square"></i></a>
+                              </li>
+                              <li>
+                                  <a href="https://twitter.com/michaeltrumbell" title="Connect on Twitter" data-toggle="tooltip" data-placement="bottom"><i class="fa fa-4x fa-twitter-square"></i></a>
+                              </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <script src="js/libs/jquery-1.11.1.min.js"></script>
+    <script src="js/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                interval: 5000
+            });
+            $('a').tooltip();
+        });
+    </script>
+</body>
+</html>
