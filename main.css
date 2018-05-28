@@ -12,6 +12,11 @@ body {
     background: url(./img/seamless_paper_texture.png);
 }
 
+.about {
+    margin: 30px;
+    font-size: 11pt;
+}
+
 h1{
     font-weight: bold;
     margin-bottom: 15px!important;
