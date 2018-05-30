@@ -44,17 +44,6 @@ h1{
     box-shadow: 0 10px 0 #36546d;
 }
 
-.about-me{
-    font-size: medium;
-}
-
-.carousel-inner{
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-}
-
 .portrait {
     margin: 0 auto;
     margin-top: 10px;
@@ -63,15 +52,21 @@ h1{
 }
 
 .footer-inner{
-
     margin-top: 25px;
 }
 
-li{
+li {
     padding-left: 20px!important;
     padding-right: 20px!important;
 
 }
+
+@media screen and (max-width: 479px){
+  li {
+      padding: 8px!important;
+  }
+}
+
 
 a{
     cursor: pointer;
